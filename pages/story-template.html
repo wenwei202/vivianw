@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story Title — Vivian W.</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .story-page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 8rem 1.5rem 4rem;
+    }
+    .story-page h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .story-meta {
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+    }
+    .story-page p {
+      margin-bottom: 1.2rem;
+      color: var(--color-text-light);
+      font-size: 1.05rem;
+      line-height: 1.8;
+    }
+    .story-page img {
+      border-radius: var(--radius-md);
+      margin: 2rem 0;
+      box-shadow: var(--shadow-sm);
+    }
+    .story-back {
+      display: inline-block;
+      margin-top: 2rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar" class="scrolled">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">Vivian W.</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#stories">← Back to Stories</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <article class="story-page">
+    <!--
+      ✏️ HOW TO USE THIS TEMPLATE:
+      1. Copy this file and rename it (e.g., "my-first-competition.html")
+      2. Update the <title> tag above
+      3. Fill in the content below
+      4. Link to it from index.html in the Stories section
+    -->
+
+    <h1>Your Story Title Here</h1>
+    <p class="story-meta">Month Day, Year</p>
+
+    <!-- Optional: story cover image -->
+    <!-- <img src="../images/stories/your-image.jpg" alt="Story image" /> -->
+
+    <p>
+      Write your story here. You can use multiple paragraphs, add images,
+      and format the text however you like.
+    </p>
+
+    <p>
+      This is another paragraph. Feel free to tell your story in as much
+      detail as you want!
+    </p>
+
+    <!-- Add more images like this: -->
+    <!-- <img src="../images/stories/another-image.jpg" alt="Description" /> -->
+
+    <a href="../index.html#stories" class="story-back">← Back to all stories</a>
+  </article>
+
+  <footer id="footer">
+    <div class="container">
+      <p class="footer-name">Vivian W.</p>
+      <p class="footer-tagline">Gymnastics · Art · Math</p>
+      <p class="footer-copy">&copy; <span id="current-year"></span> Vivian W.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
