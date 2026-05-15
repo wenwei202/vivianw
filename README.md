@@ -1,8 +1,8 @@
 # Vivian W. — Personal Website
 
-A personal website showcasing Vivian's passions: **Rhythmic Gymnastics**, **Art**, and **Mathematics**.
+A personal website showcasing Vivian's passions: **Rhythmic Gymnastics**, **Art & Music**, and **STEM**.
 
-Live at: **https://vivianw.github.io** (once GitHub Pages is enabled)
+Live at: **https://wenwei202.github.io/vivianw/** (once GitHub Pages is enabled)
 
 ---
 
@@ -20,8 +20,9 @@ vivanw/
 │   ├── profile.jpg         ← About section photo
 │   ├── gymnastics/         ← Gymnastics photos
 │   ├── art/                ← Artwork images
+│   ├── music/              ← Piano & music photos
 │   ├── awards/             ← Award/certificate photos
-│   ├── math/               ← Math-related images
+│   ├── stem/               ← STEM-related images
 │   └── stories/            ← Story images
 ├── pages/
 │   └── story-template.html ← Template for individual story pages
@@ -30,9 +31,9 @@ vivanw/
 
 ## How to Add Content
 
-### Adding Photos (Gymnastics or Art)
+### Adding Photos (Gymnastics, Art, or Music)
 
-1. Put your image in the appropriate folder (`images/gymnastics/` or `images/art/`)
+1. Put your image in the appropriate folder (`images/gymnastics/`, `images/art/`, or `images/music/`)
 2. Open `index.html`
 3. Find the section (search for `gymnastics-gallery` or `art-gallery`)
 4. Add this block inside the gallery div:
@@ -64,13 +65,13 @@ vivanw/
 </div>
 ```
 
-### Adding a Math Highlight
+### Adding a STEM Highlight
 
-Find `math-grid` in `index.html` and add:
+Find `math-grid` in `index.html` (inside the STEM section) and add:
 
 ```html
 <div class="math-card">
-  <div class="math-icon">🏆</div>
+  <div class="math-icon">🔬</div>
   <h3>Title</h3>
   <p>Description</p>
 </div>
